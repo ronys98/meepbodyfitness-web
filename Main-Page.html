@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MEEP BodyFitness Orlová - moderní gym pro sílu, kardio a regeneraci.">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styly/styly-main.css">
+  <title>MEEP BodyFitness Orlová</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="MEEP BodyFitness domů">
+        <img src="logo/MeepBodyfitnessLogo.png" alt="MEEP BodyFitness logo">
+        <span>MEEP BodyFitness</span>
+      </a>
+
+      <div class="mobile-quick-links" aria-label="Rychlé odkazy">
+        <a href="services/info.html">Info</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+
+      <nav class="site-nav" aria-label="Hlavní navigace">
+        <div class="desktop-nav-links">
+          <a href="#home">Domů</a>
+          <a href="#about">O nás</a>
+          <a href="#services">Služby</a>
+          <a href="services/info.html">Info</a>
+          <a href="services/cenik.html">Ceník</a>
+          <a href="#sponsors">Sponzoři</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+
+        <div class="mobile-nav-group" aria-label="Obecné informace">
+          <p class="mobile-nav-title">Obecné informace</p>
+          <a href="#home">Domů</a>
+          <a href="#about">O nás</a>
+          <a href="services/info.html">Info</a>
+          <a href="services/cenik.html">Ceník</a>
+          <a href="#sponsors">Sponzoři</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+
+        <div class="mobile-nav-group" aria-label="Služby a zóny">
+          <p class="mobile-nav-title">Služby a zóny</p>
+          <a href="services/kardio-zona.html">Kardio zóna</a>
+          <a href="services/posilovna.html">Posilovna</a>
+          <a href="services/inbody-diagnostika.html">InBody diagnostika</a>
+          <a href="services/vacutherm.html">VacuTherm</a>
+          <a href="services/kryolipolyza.html">Kryolipolýza</a>
+          <a href="services/lymfa-masaze.html">Lymfa masáže</a>
+          <a href="services/spaceship-recovery.html">SpaceShip recovery</a>
+          <a href="services/solarium.html">Solárium</a>
+        </div>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Otevřít navigaci" aria-expanded="false" aria-controls="site-nav">☰</button>
+
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="Přepnout motiv" aria-pressed="false">🌗 Světlý motiv</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-layout">
+        <article class="hero-main reveal">
+          <span class="hero-kicker">MEEP BodyFitness Orlová</span>
+          <h1>Gym prostor pro výkon, sílu a čistou regeneraci.</h1>
+          <p>
+            Tréninková zóna, kardio, diagnostika a recovery technologie na jednom místě.
+            Prostředí, kde každý trénink posouvá tvoje výsledky dál.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#services">Prozkoumat služby</a>
+            <a class="btn btn-secondary" href="#contact">Chci členství</a>
+          </div>
+        </article>
+
+        <aside class="hero-side reveal" id="about">
+          <h2>Proč MEEP</h2>
+          <div class="stats-grid">
+            <article class="stat-card">
+              <strong>8</strong>
+              <span>specializovaných zón a služeb</span>
+            </article>
+            <article class="stat-card">
+              <strong>Po–Pá 8:00–12:00 / 14:00–20:00</strong>
+              <span>Víkend: So 8:00–12:00, Ne 8:00–12:00</span>
+            </article>
+            <article class="stat-card">
+              <strong>606 154 115</strong>
+              <span>rychlá rezervace i informace</span>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container reveal">
+        <p>
+          Moderní gym v Orlové pro sílu, kondici i regeneraci. Přijď si zacvičit do prostředí,
+          které kombinuje výkon, péči o tělo a profesionální přístup.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Naše služby</h2>
+          <p>Každá služba má vlastní stránku s detaily. Vyber si, co potřebuješ pro svůj cíl.</p>
+        </header>
+
+        <div class="services-grid">
+          <a class="service-card reveal" href="services/kardio-zona.html">
+            <img src="gym-picture/kardio/kardio.jpg" alt="Kardio zóna">
+            <div class="service-content">
+              <span class="service-type">Trénink</span>
+              <h3>Kardio zóna</h3>
+              <p>Běžecké pásy, elipticaly, cyklotrenažéry i VacuTherm Body Space.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/posilovna.html">
+            <img src="gym-picture/posilovna/posilovna.JPG" alt="Posilovna">
+            <div class="service-content">
+              <span class="service-type">Trénink</span>
+              <h3>Posilovna</h3>
+              <p>Kompletní prostor pro budování síly a objemu.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/inbody-diagnostika.html">
+            <img src="gym-picture/Inbody/Inbody.jpg" alt="InBody diagnostika">
+            <div class="service-content">
+              <span class="service-type">Diagnostika</span>
+              <h3>InBody diagnostika</h3>
+              <p>Přesná analýza složení těla a profesionální výstup výsledků.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/vacutherm.html">
+            <img src="gym-picture/vacutherm/vacutherm.jpg" alt="VacuTherm">
+            <div class="service-content">
+              <span class="service-type">Regenerace</span>
+              <h3>VacuTherm</h3>
+              <p>Kombinace podtlaku a infračerveného záření pro formování postavy.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/kryolipolyza.html">
+            <img src="gym-picture/kryolipolyza/kryolipolyza.png" alt="Kryolipolýza">
+            <div class="service-content">
+              <span class="service-type">Formování těla</span>
+              <h3>Kryolipolýza</h3>
+              <p>Neinvazivní metoda redukce podkožního tuku řízeným chlazením.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/lymfa-masaze.html">
+            <img src="gym-picture/lymfa/lymfa.jpg" alt="Lymfa masáže">
+            <div class="service-content">
+              <span class="service-type">Regenerace</span>
+              <h3>Lymfa masáže</h3>
+              <p>Podpora detoxikace, odvodu vody a regenerace lymfatického systému.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/spaceship-recovery.html">
+            <img src="gym-picture/spaceship/spaceship.jpg" alt="SpaceShip recovery">
+            <div class="service-content">
+              <span class="service-type">Regenerace</span>
+              <h3>SpaceShip recovery</h3>
+              <p>Zeštíhlující a omlazující procedura s více typy terapií.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="services/solarium.html">
+            <img src="gym-picture/solarium/solarium1.jpg" alt="Solárium">
+            <div class="service-content">
+              <span class="service-type">Wellness</span>
+              <h3>Solárium</h3>
+              <p>Vertikální ULTRASUN I8 s výkonem a komfortním prostorem.</p>
+              <span class="service-link">Otevřít stránku služby</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="section section-compact">
+      <div class="container">
+        <a class="info-card reveal" href="services/info.html">
+          <img src="gym-picture/info/info.jpg" alt="Info MEEP BodyFitness">
+          <div class="info-content">
+            <span class="service-type">Info</span>
+            <h3>Info a důležité dokumenty</h3>
+            <p>Samostatná sekce s ceníkem, provozním řádem, kontakty a praktickými informacemi pro klienty.</p>
+            <ul>
+              <li>• Ceník služeb</li>
+              <li>• Provozní řád</li>
+              <li>• Kontaktní údaje</li>
+            </ul>
+            <span class="service-link">Otevřít samostatnou stránku Info</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Rychlý ceník</h2>
+          <p>Rychlý přehled vstupu a členství. Pro kompletní ceník otevři samostatnou stránku.</p>
+          <a class="btn btn-secondary pricing-cta" href="services/cenik.html">Zobrazit přesný ceník</a>
+        </header>
+
+        <div class="pricing-wrap reveal">
+          <article class="price-card">
+            <h3>Jednorázový vstup</h3>
+            <p class="price">150 Kč <small>/ vstup</small></p>
+            <ul>
+              <li>Bez závazku členství</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>Student</h3>
+            <p class="price">750 Kč <small>/ měsíc</small></p>
+            <ul>
+              <li>Bez dalších výhod</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>Dospělý</h3>
+            <p class="price">1000 Kč <small>/ měsíc</small></p>
+            <ul>
+              <li>1x InBody měření</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsors" class="section section-compact">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Naši sponzoři</h2>
+          <p>Partneři seřazení podle zaměření: hlavní partner, vybavení, diagnostika, sportovní obchod a výživa.</p>
+        </header>
+
+        <div class="sponsors-grid reveal">
+          <a class="sponsor-card" href="https://meep.cz/" target="_blank" rel="noopener noreferrer" aria-label="MEEP - hlavní partner">
+            <img src="sponsors/meep.png" alt="MEEP">
+            <span class="sponsor-meta">1. Hlavní partner</span>
+          </a>
+          <a class="sponsor-card" href="https://www.grunsport.cz/" target="_blank" rel="noopener noreferrer" aria-label="Grun Sport - vybavení">
+            <img src="sponsors/grunsport.png" alt="Grun Sport">
+            <span class="sponsor-meta">2. Sportovní vybavení</span>
+          </a>
+          <a class="sponsor-card" href="https://www.inbody.cz/?utm_source=google&utm_medium=cpc&utm_campaign=PER_BRD_KW_CZ&utm_id=20493094208&gad_source=1&gad_campaignid=20493094208&gbraid=0AAAAApy4Cvjb7MQ437vB8A7w6cvEVLfrl&gclid=CjwKCAjwpcTNBhA5EiwAdO1S9nj31m8435Yz6R7nt1r_kZnGCWqEDVWzkLnMRNvCC02Yqw1Ed5Tm5hoChhcQAvD_BwE" target="_blank" rel="noopener noreferrer" aria-label="InBody - diagnostika">
+            <img src="sponsors/inbody.png" alt="InBody">
+            <span class="sponsor-meta">3. Diagnostika</span>
+          </a>
+          <a class="sponsor-card" href="https://www.insportline.cz/?utm_source=google&utm_medium=cpc&utm_campaign=620138309&utm_content=CjwKCAjwpcTNBhA5EiwAdO1S9h1IUCn0_rc5lFwS7MLt957pVMpxhGZqW8nOYwTdamKN0NmVDH14bhoCLqIQAvD_BwE&gclid=CjwKCAjwpcTNBhA5EiwAdO1S9h1IUCn0_rc5lFwS7MLt957pVMpxhGZqW8nOYwTdamKN0NmVDH14bhoCLqIQAvD_BwE&gad_source=1&gad_campaignid=620138309&gbraid=0AAAAAD9Q9eqvodpUL2EkBU_tpOhS63hD_&gclid=CjwKCAjwpcTNBhA5EiwAdO1S9h1IUCn0_rc5lFwS7MLt957pVMpxhGZqW8nOYwTdamKN0NmVDH14bhoCLqIQAvD_BwE" target="_blank" rel="noopener noreferrer" aria-label="Insportline - sportovní obchod">
+            <img src="sponsors/insportline.png" alt="Insportline">
+            <span class="sponsor-meta">4. Sportovní obchod</span>
+          </a>
+          <a class="sponsor-card" href="https://www.nutrend.cz/?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Pure&utm_id=934484769&gad_source=1&gad_campaignid=934484769&gbraid=0AAAAADHBVXjDkiwX2KnxZbGbXC0rr0wSp&gclid=CjwKCAjwpcTNBhA5EiwAdO1S9m-4U6L9oEfqBgKrKVyuVHf_TyO6Tqd8mjEwrzpdgNkDXs8vpHT_-BoCzNgQAvD_BwE" target="_blank" rel="noopener noreferrer" aria-label="Nutrend - výživa">
+            <img src="sponsors/nutrend.png" alt="Nutrend">
+            <span class="sponsor-meta">5. Sportovní výživa</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Kontakt</h2>
+          <p>Přijď osobně, zavolej nebo napiš zprávu. Rádi ti pomůžeme vybrat ideální členství.</p>
+        </header>
+
+        <div class="contact-grid">
+          <article class="contact-info reveal">
+            <div class="contact-items">
+              <div class="contact-item">
+                <b>Adresa</b>
+                <p>Kpt. Jaroše 761<br>735 14 Orlová 4-Lutyně</p>
+              </div>
+              <div class="contact-item">
+                <b>Otevírací hodiny</b>
+                <p>Po–Pá: 8:00–12:00 a 14:00–20:00<br>So: 8:00–12:00<br>Ne: 8:00–12:00</p>
+              </div>
+              <div class="contact-item">
+                <b>Telefon</b>
+                <p>606 154 115</p>
+              </div>
+              <div class="contact-item">
+                <b>E-mail</b>
+                <p>info@meepbodyfitness.cz</p>
+              </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.8295726654526!2d18.714389!3d49.839486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471393f8e4f4e4e5%3A0x123!2sKpt.%20Jaro%C5%A1e%20761%2C%20735%2014%20Orlov%C3%A1%204-Lutyn%C4%9B%2C%20Czech%20Republic!5e0!3m2!1sen!2s!4v1707265200000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </article>
+
+          <form class="contact-form reveal" novalidate>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;pointer-events:none;">
+            <div>
+              <label for="name">Jméno a příjmení *</label>
+              <input type="text" id="name" name="name" required minlength="2" maxlength="80" autocomplete="name" placeholder="Vaše jméno">
+            </div>
+
+            <div>
+              <label for="email">E-mailová adresa *</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="vas.email@example.com">
+            </div>
+
+            <div>
+              <label for="phone">Telefonní číslo</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" pattern="\+?[0-9 ]{9,15}" placeholder="+420 123 456 789">
+            </div>
+
+            <div>
+              <label for="message">Zpráva *</label>
+              <textarea id="message" name="message" required minlength="8" maxlength="1200" placeholder="Vaše zpráva..."></textarea>
+            </div>
+
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            <button type="submit" class="btn btn-primary">Odeslat zprávu</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> MEEP BodyFitness • Všechna práva vyhrazena.</div>
+  </footer>
+
+  <script>
+    const pageBody = document.body;
+    const themeButton = document.getElementById('theme-toggle');
+    const navToggleButton = document.getElementById('nav-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (siteNav) siteNav.id = 'site-nav';
+
+    const storage = {
+      get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
+      set: (k, v) => { try { localStorage.setItem(k, v); } catch {} }
+    };
+
+    if (storage.get('meep-theme') === 'light') pageBody.classList.add('light-mode');
+
+    function syncThemeButton() {
+      if (!themeButton) return;
+      const isLight = pageBody.classList.contains('light-mode');
+      themeButton.setAttribute('aria-pressed', isLight ? 'true' : 'false');
+      themeButton.textContent = isLight ? 'DEN' : 'NOC';
+    }
+
+    function animateThemeTransition(e) {
+      if (!themeButton) return;
+      const rect = themeButton.getBoundingClientRect();
+      pageBody.style.setProperty('--tx', `${e?.clientX ?? rect.left + rect.width / 2}px`);
+      pageBody.style.setProperty('--ty', `${e?.clientY ?? rect.top + rect.height / 2}px`);
+      pageBody.classList.remove('theme-transitioning');
+      void pageBody.offsetWidth;
+      pageBody.classList.add('theme-transitioning');
+      setTimeout(() => pageBody.classList.remove('theme-transitioning'), 680);
+    }
+
+    if (themeButton) {
+      themeButton.addEventListener('click', (e) => {
+        animateThemeTransition(e);
+        themeButton.classList.remove('switch-pop');
+        void themeButton.offsetWidth;
+        themeButton.classList.add('switch-pop');
+        pageBody.classList.toggle('light-mode');
+        storage.set('meep-theme', pageBody.classList.contains('light-mode') ? 'light' : 'dark');
+        syncThemeButton();
+        setTimeout(() => themeButton.classList.remove('switch-pop'), 430);
+      });
+    }
+
+    function syncMobileNavButton() {
+      if (!navToggleButton || !siteNav) return;
+      const isOpen = siteNav.classList.contains('is-open');
+      navToggleButton.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      navToggleButton.setAttribute('aria-label', isOpen ? 'Zavřít navigaci' : 'Otevřít navigaci');
+      navToggleButton.textContent = isOpen ? '✕' : '☰';
+    }
+
+    function closeNav() {
+      if (!siteNav) return;
+      siteNav.classList.remove('is-open');
+      pageBody.classList.remove('nav-open');
+      syncMobileNavButton();
+    }
+
+    if (navToggleButton && siteNav) {
+      navToggleButton.addEventListener('click', () => {
+        siteNav.classList.toggle('is-open');
+        pageBody.classList.toggle('nav-open', siteNav.classList.contains('is-open'));
+        syncMobileNavButton();
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!window.matchMedia('(max-width: 760px)').matches || !siteNav.classList.contains('is-open')) return;
+        if (e.target instanceof Element && !siteNav.contains(e.target) && !navToggleButton.contains(e.target)) closeNav();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && window.matchMedia('(max-width: 760px)').matches && siteNav.classList.contains('is-open')) closeNav();
+      });
+
+      siteNav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          if (window.matchMedia('(max-width: 760px)').matches) closeNav();
+        });
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 760) closeNav();
+      });
+
+      syncMobileNavButton();
+    }
+
+    const revealElements = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.16 });
+
+      revealElements.forEach((element, index) => {
+        element.style.transitionDelay = `${index * 0.02}s`;
+        revealObserver.observe(element);
+      });
+    } else {
+      revealElements.forEach((element) => element.classList.add('is-visible'));
+    }
+
+    const contactForm = document.querySelector('.contact-form');
+    const formStatus = document.getElementById('form-status');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const formData = new FormData(contactForm);
+        const name = String(formData.get('name') || '').trim();
+        const email = String(formData.get('email') || '').trim();
+        const phone = String(formData.get('phone') || '').trim();
+        const message = String(formData.get('message') || '').trim();
+
+        [['#name', name], ['#email', email], ['#phone', phone], ['#message', message]].forEach(([sel, val]) => {
+          const el = contactForm.querySelector(sel);
+          if (el) el.value = val;
+        });
+
+        if (!contactForm.checkValidity()) {
+          if (formStatus) {
+            formStatus.textContent = 'Prosím zkontrolujte povinná pole formuláře.';
+            formStatus.classList.add('is-error');
+            formStatus.classList.remove('is-success');
+          }
+          contactForm.reportValidity();
+          return;
+        }
+
+        formData.set('_subject', `Dotaz z webu MEEP BodyFitness – ${name}`);
+
+        if (formStatus) {
+          formStatus.textContent = 'Odesílám zprávu...';
+          formStatus.classList.remove('is-error');
+          formStatus.classList.add('is-success');
+        }
+
+        try {
+          const response = await fetch('https://formsubmit.co/ajax/info@meepbodyfitness.cz', {
+            method: 'POST',
+            body: formData,
+            headers: { Accept: 'application/json' }
+          });
+
+          const result = await response.json().catch(() => ({}));
+          if (!response.ok || result.success !== 'true') throw new Error('Form submit failed');
+
+          if (formStatus) {
+            formStatus.textContent = 'Děkujeme, zpráva byla úspěšně odeslána.';
+            formStatus.classList.remove('is-error');
+            formStatus.classList.add('is-success');
+          }
+          contactForm.reset();
+          syncThemeButton();
+        } catch {
+          const subject = encodeURIComponent(`Dotaz z webu MEEP BodyFitness – ${name}`);
+          const body = encodeURIComponent(`Jméno: ${name}\nE-mail: ${email}\nTelefon: ${phone || '-'}\n\nZpráva:\n${message}`);
+          if (formStatus) {
+            formStatus.textContent = 'Nepodařilo se odeslat formulář přímo. Otevírám e-mailového klienta jako náhradní řešení.';
+            formStatus.classList.add('is-error');
+            formStatus.classList.remove('is-success');
+          }
+          window.location.href = `mailto:info@meepbodyfitness.cz?subject=${subject}&body=${body}`;
+        }
+      });
+    }
+
+    syncThemeButton();
+    const yearLabel = document.getElementById('year');
+    if (yearLabel) yearLabel.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
